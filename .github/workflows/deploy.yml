@@ -7,7 +7,7 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
 
 jobs:
-  Cloud Run Deployment:
+  CloudRunDeployment:
     name: Cloud Run Deployment
     runs-on: ubuntu-latest
 
